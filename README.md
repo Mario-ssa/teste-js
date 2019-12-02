@@ -1,2 +1,1 @@
-# teste-js
-aula de testes de sistemas
+# senai-PA2-tickets
