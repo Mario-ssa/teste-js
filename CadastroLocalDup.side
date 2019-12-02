@@ -1,0 +1,185 @@
+{
+  "id": "afe8a393-233d-472f-9e0f-eacd2b2cc6d0",
+  "version": "2.0",
+  "name": "CadastroLocalDup",
+  "url": "http://127.0.0.1:8000/login",
+  "tests": [{
+    "id": "c0c073e5-7f8a-4c3f-9b7e-e326024ad6b2",
+    "name": "CadastroLocalDup",
+    "commands": [{
+      "id": "09287d14-8071-4616-9a5a-4b94def81820",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:8000/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e2dea00-c910-497e-a748-86ad2ea11a74",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1376x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64dfbcfd-5304-4235-a06c-d2d14a0d00b2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-label-group:nth-child(1) > label",
+      "targets": [
+        ["css=.form-label-group:nth-child(1) > label", "css:finder"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Usuário')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bad0a902-573b-4986-aaea-6668c5f08a1d",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputEmail",
+      "targets": [
+        ["id=inputEmail", "id"],
+        ["name=email", "name"],
+        ["css=#inputEmail", "css:finder"],
+        ["xpath=//input[@id='inputEmail']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin@email.com"
+    }, {
+      "id": "ab0fa5ec-caa2-48be-9d7b-b5438566ee18",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-label-group:nth-child(2) > label",
+      "targets": [
+        ["css=.form-label-group:nth-child(2) > label", "css:finder"],
+        ["xpath=//div[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Senha')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "310dbda6-d45a-4e48-a4d0-86661eedfbc1",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputPassword",
+      "targets": [
+        ["id=inputPassword", "id"],
+        ["name=password", "name"],
+        ["css=#inputPassword", "css:finder"],
+        ["xpath=//input[@id='inputPassword']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "9e3c2cb9-94c5-4719-9d15-81e370494e49",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb93eb5f-c3e6-4a0b-9359-7abc361333b5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Novo Local",
+      "targets": [
+        ["linkText=Novo Local", "linkText"],
+        ["css=.nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Novo Local')]", "xpath:link"],
+        ["xpath=//div[@id='navbarNavDropdown']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cadastrolocal')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Novo Local')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "deed53bf-de42-4a89-823b-ae42a90399c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-label-group:nth-child(1) > .required",
+      "targets": [
+        ["css=.form-label-group:nth-child(1) > .required", "css:finder"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Nome do Local')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1b588d2-2196-485e-b79e-641526173c79",
+      "comment": "",
+      "command": "type",
+      "target": "id=local_evento_nome_local",
+      "targets": [
+        ["id=local_evento_nome_local", "id"],
+        ["name=local_evento[nome_local]", "name"],
+        ["css=#local_evento_nome_local", "css:finder"],
+        ["xpath=//input[@id='local_evento_nome_local']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Clube"
+    }, {
+      "id": "6a0effbf-b57d-41b4-a2bf-97d549fd92fb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-label-group:nth-child(2) > .required",
+      "targets": [
+        ["css=.form-label-group:nth-child(2) > .required", "css:finder"],
+        ["xpath=//div[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Capacidade')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "456e3f7f-9983-4bb9-be42-2109060a2b6c",
+      "comment": "",
+      "command": "type",
+      "target": "id=local_evento_capacidade",
+      "targets": [
+        ["id=local_evento_capacidade", "id"],
+        ["name=local_evento[capacidade]", "name"],
+        ["css=#local_evento_capacidade", "css:finder"],
+        ["xpath=//input[@id='local_evento_capacidade']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "300"
+    }, {
+      "id": "ba793e6f-4d83-4e1c-9a15-b811735b6912",
+      "comment": "",
+      "command": "click",
+      "target": "id=local_evento_confirma",
+      "targets": [
+        ["id=local_evento_confirma", "id"],
+        ["name=local_evento[confirma]", "name"],
+        ["css=#local_evento_confirma", "css:finder"],
+        ["xpath=//button[@id='local_evento_confirma']", "xpath:attributes"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b0269e7-3aad-4476-bb03-0469217d0dc5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=.nav-link > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//div[@id='navbarNavDropdown']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/logout')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "65f7f8c4-5a54-417b-b98f-176976285db7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c0c073e5-7f8a-4c3f-9b7e-e326024ad6b2"]
+  }],
+  "urls": ["http://127.0.0.1:8000/login"],
+  "plugins": []
+}
